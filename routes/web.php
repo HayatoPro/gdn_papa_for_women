@@ -22,9 +22,6 @@ Route::get('live', function () {
     // return redirect('./os'); //獲得用OS識別
 });
 
-//OS識別
-Route::get('os', 'AdController@os');
-
 // LP確認用
 Route::get('cccheck', function () {
     return redirect('https://fam-ad.com/ad/p/r?_site=64801&_article=16355'); //獲得用(1)_直LP遷移
@@ -34,3 +31,6 @@ Route::get('cccheck', function () {
 Route::get('cccheck2', function () {
     return redirect('./os'); //獲得用OS識別
 });
+
+//OS識別
+Route::get('os', 'AdController@os');
