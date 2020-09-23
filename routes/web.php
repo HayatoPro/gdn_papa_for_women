@@ -12,8 +12,8 @@
 */
 // LP獲得用(1)
 Route::get('job', function () {
-    return view('gdn.check'); //提出用
-    // return redirect('https://fam-ad.com/ad/p/r?_site=64801&_article=16355'); //獲得用(1)_直LP遷移
+    // return view('gdn.check'); //提出用
+    return redirect('https://fam-ad.com/ad/p/r?_site=64801&_article=16355'); //獲得用(1)_直LP遷移
 });
 
 // LP獲得用(2)
