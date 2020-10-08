@@ -18,8 +18,8 @@
 
 // LP獲得用(2)
 Route::get('app', function () {
-    return view('gdn.check2'); //提出用
-    // return view('gdn.adult'); //LP獲得用 - 男性向け
+    // return view('gdn.check2'); //提出用
+    return view('gdn.adult'); //LP獲得用 - 男性向け
     
     // return redirect('./os'); //獲得用OS識別
 });
