@@ -1,0 +1,7 @@
+img {
+    width: 100%;
+}
+
+.protect {
+    pointer-events: none;
+}
