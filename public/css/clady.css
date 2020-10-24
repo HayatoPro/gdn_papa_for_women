@@ -1,0 +1,276 @@
+body {
+    font-family: 'Hiragino Kaku Gothic Pro','ヒラギノ角ゴ Pro W3','メイリオ',Meiryo,'ＭＳ Ｐゴシック',sans-serif;
+}
+
+.red {
+    font-weight: bold;
+    color: red;
+    border-bottom: solid 2px red;
+}
+
+a {
+    font-weight: bold;
+    color: blue;
+    border-bottom: solid 1px blue;
+}
+
+header img {
+    width: 100%;
+}
+
+.body {
+    padding: 0 0.5em;
+}
+
+.pink {
+    background-color: pink;
+    margin-top: -1.3em;
+}
+
+.pink h5 {
+    color: white;
+    text-align: center;
+    font-size: 4vw;
+}
+
+.title {
+    margin-top: -0.7em;
+}
+
+.title h3 {
+    color: #444444;
+    font-size: 4.3vw;
+}
+
+.time p {
+    font-size: 2.5vw;
+    color: grey;
+    margin-top: -1em;
+}
+
+.title-text p {
+    font-size: 3vw;
+    color: #555555;
+    margin-bottom: 2.5em;
+}
+
+.contents1 h3 {
+    color: #444444;
+    font-size: 4.3vw;
+}
+
+.contents1 img {
+    margin-top: -1.5em;
+    width: 100%;
+}
+
+.contents1-text p {
+    margin-top: -0.1em;
+    font-size: 3vw;
+    color: #555555;
+    margin-bottom: 3em;
+}
+
+.contents2 h3 {
+    color: #444444;
+    font-size: 4.3vw;
+}
+
+.contents2 img {
+    margin-top: -1.5em;
+    width: 100%;
+}
+
+.contents2-text p {
+    margin-top: -0.1em;
+    font-size: 3vw;
+    color: #555555;
+    margin-bottom: 3em;
+}
+
+.contents3 h3 {
+    color: #444444;
+    font-size: 4.3vw;
+}
+
+.contents3 img {
+    margin-top: -1em;
+    width: 100%;
+}
+
+.contents3-text p {
+    margin-top: 0.2em;
+    font-size: 3vw;
+    color: #555555;
+    margin-bottom: 3em;
+}
+
+.contents4 h3 {
+    color: #444444;
+    font-size: 4.3vw;
+}
+
+.contents4 img {
+    margin-top: -1em;
+    width: 100%;
+}
+
+.contents4-text p {
+    margin-top: 0.2em;
+    font-size: 3vw;
+    color: #555555;
+    margin-bottom: 3em;
+}
+
+.contents5 h3 {
+    color: #444444;
+    font-size: 4.3vw;
+}
+
+.contents5-img {
+    margin-top: -1em;
+    text-align: center;
+}
+
+.contents5 img {
+    width: 90%;
+}
+
+.contents5-text p {
+    margin-top: 0.2em;
+    font-size: 3vw;
+    color: #555555;
+    margin-bottom: 4em;
+}
+
+.contents6 h3 {
+  position: relative;
+  padding: 5px 5px 5px 50px;
+  background: #FF88FF;
+  /*font-size: 20px;*/
+  font-size: 4.3vw;
+  color: white;
+  margin-left: -33px;
+  line-height: 1.3;
+  z-index:-1;
+}
+
+.contents6 h3:before {
+  position: absolute;
+  content: '';
+  left: -2px;
+  top: -2px;
+  border: none;
+  border-left: solid 40px white;
+  border-bottom: solid 79px transparent;
+  z-index:-2
+}
+
+.contents6 img {
+    width: 100%;
+    margin-top: -1.2em;
+}
+
+.contents6-button {
+    text-align: center;
+}
+
+.btn-square-shadow {
+  display: inline-block;
+  padding: 0.5em 1em;
+  text-decoration: none;
+  background: red;/*ボタン色*/
+  color: #FFF;
+  border-bottom: solid 4px #627295;
+  border-radius: 3px;
+  font-size: 4.3vw;
+}
+
+.contents6-text p {
+    margin-top: 1em;
+    font-size: 3vw;
+    color: #555555;
+    /*margin-bottom: 4em;*/
+}
+
+.contents6-box {
+    position: relative;
+    margin: 1.5em 0;
+    padding: 0.5em 1em;
+    border: solid 3px #FF88FF;
+    border-radius: 8px;
+}
+
+.contents6-box .box-title {
+    position: absolute;
+    display: inline-block;
+    top: -13px;
+    left: 10px;
+    padding: 0 9px;
+    line-height: 1;
+    /*font-size: 19px;*/
+    font-size: 4.3vw;
+    background: #FFF;
+    color: #FF88FF;
+    font-weight: bold;
+}
+
+.contents6-box li {
+    margin-left: -1em;
+    font-size: 3.5vw;
+    font-weight: bold;
+}
+
+.contents6-text2 p {
+    margin-top: -1em;
+    font-size: 3vw;
+    color: #555555;
+    /*margin-bottom: 4em;*/
+}
+
+.contents6-button2 {
+    text-align: center;
+    margin-bottom: 3em;
+}
+
+.contents7 h3 {
+    color: #444444;
+    font-size: 4.3vw;
+}
+
+.contents7 img {
+    width: 100%;
+}
+
+.contents7-text p {
+    margin-top: 0.1em;
+    font-size: 3vw;
+    color: #555555;
+    margin-bottom: 3em;
+}
+
+.contents8 h3 {
+    color: #444444;
+    font-size: 4.3vw;
+}
+
+.contents8-img {
+    margin-top: -1em;
+    text-align: center;
+}
+
+.contents8 img {
+    width: 90%;
+}
+
+.contents8-text p {
+    margin-top: 0.1em;
+    font-size: 3vw;
+    color: #555555;
+    margin-bottom: 3em;
+}
+
+.contents8-text img {
+    margin-top: -1em;
+    width: 90%;
+}
