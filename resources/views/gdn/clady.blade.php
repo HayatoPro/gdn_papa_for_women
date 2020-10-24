@@ -23,7 +23,7 @@
             </div>
             
             <div class="time">
-                <p>2020/10/22</p>
+                <p>2020/10/25</p>
             </div>
             
             <div class="title-text">
