@@ -142,3 +142,185 @@ header img {
   position: absolute;
   left : 0.5em; /*左端からのアイコンまでの距離*/
 }
+
+.rank2-img {
+    text-align: center;
+    margin-top: -1em;
+}
+
+.rank2 img {
+    width: 100%;
+}
+
+.rank2-text p {
+    font-size: 3.5vw;
+    color: #555555;
+    margin-top: -0.1em;
+}
+
+.rank2-box {
+    position: relative;
+    margin: 1em 0;
+    padding: 0.5em 1em 0 1em;
+    border: solid 3px pink;
+    border-radius: 8px;
+}
+
+.rank2-box .box-title {
+    position: absolute;
+    display: inline-block;
+    top: -13px;
+    left: 10px;
+    padding: 0 9px;
+    line-height: 1;
+    /*font-size: 19px;*/
+    font-size: 4.3vw;
+    background: #FFF;
+    color: pink;
+    font-weight: bold;
+}
+
+.rank2-box li {
+    margin-left: -1em;
+    padding-bottom: 0.5em;
+    font-size: 3.8vw;
+    font-weight: bold;
+}
+
+.rank2-button {
+    text-align: center;
+    margin-bottom: 3em;
+}
+
+.rank3 h3 {
+    font-size: 4.5vw;
+      position: relative;
+      color: white;
+      background: pink;
+      line-height: 1.4;
+      padding: 0.5em 0.5em 0.5em 1.8em;
+}
+
+.rank3 h3:before {
+  font-family: "Font Awesome 5 Free";
+  content: "\f14a";
+  font-weight: 900;
+  position: absolute;
+  left : 0.5em; /*左端からのアイコンまでの距離*/
+}
+
+.rank3-img {
+    text-align: center;
+    margin-top: -1em;
+}
+
+.rank3 img {
+    width: 100%;
+}
+
+.rank3-text p {
+    font-size: 3.5vw;
+    color: #555555;
+    margin-top: -0.1em;
+}
+
+.rank3-box {
+    position: relative;
+    margin: 1em 0;
+    padding: 0.5em 1em 0 1em;
+    border: solid 3px pink;
+    border-radius: 8px;
+}
+
+.rank3-box .box-title {
+    position: absolute;
+    display: inline-block;
+    top: -13px;
+    left: 10px;
+    padding: 0 9px;
+    line-height: 1;
+    /*font-size: 19px;*/
+    font-size: 4.3vw;
+    background: #FFF;
+    color: pink;
+    font-weight: bold;
+}
+
+.rank3-box li {
+    margin-left: -1em;
+    padding-bottom: 0.5em;
+    font-size: 3.8vw;
+    font-weight: bold;
+}
+
+.rank3-button {
+    text-align: center;
+    margin-bottom: 3em;
+}
+
+.end1 h3 {
+  position: relative;/*相対位置*/
+  padding: 0.5em 0.5em 0.5em 1.5em;/*アイコン分のスペース*/
+  line-height: 1.4;/*行高*/
+  color: #ff6a6a;/*文字色*/
+  border-top: dotted 1px gray;
+  border-bottom: dotted 1px gray;
+  background: #fffff4;
+}
+
+.end1 h3:before {
+  font-family: "Font Awesome 5 Free";/*忘れずに*/
+  content: "\f138";/*アイコンのユニコード*/
+  font-weight: 900;
+  position: absolute;/*絶対位置*/
+  font-size: 1em;/*サイズ*/
+  left: 0.25em;/*アイコンの位置*/
+  top: 0.5em;/*アイコンの位置*/
+  color: #ff6a6a; /*アイコン色*/
+}
+
+.end1 p {
+    font-size: 3.5vw;
+    color: #555555;
+    margin-top: -1em;
+}
+
+.end2 h3 {
+  position: relative;/*相対位置*/
+  padding: 0.5em 0.5em 0.5em 1.5em;/*アイコン分のスペース*/
+  line-height: 1.4;/*行高*/
+  color: #ff6a6a;/*文字色*/
+  border-top: dotted 1px gray;
+  border-bottom: dotted 1px gray;
+  background: #fffff4;
+}
+
+.end2 h3:before {
+  font-family: "Font Awesome 5 Free";/*忘れずに*/
+  content: "\f138";/*アイコンのユニコード*/
+  font-weight: 900;
+  position: absolute;/*絶対位置*/
+  font-size: 1em;/*サイズ*/
+  left: 0.25em;/*アイコンの位置*/
+  top: 0.5em;/*アイコンの位置*/
+  color: #ff6a6a; /*アイコン色*/
+}
+
+.end2 p {
+    font-size: 3.5vw;
+    color: #555555;
+    margin-top: -1em;
+}
+
+.editor {
+    text-align: center;
+    margin: 3em 0 2em 0;
+}
+
+.editor img {
+    width: 100%;
+}
+
+footer img {
+    width: 100%;
+}
