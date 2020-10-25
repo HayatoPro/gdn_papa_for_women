@@ -10,7 +10,7 @@
     </head>
     <body>
         <header>
-            <img src="{{ asset('image/cl_lp_1.jpg') }}"></img>
+            <img src="{{ asset('image/cl_lp_1-2.jpg') }}"></img>
         </header>
         
         <div class="body">
@@ -56,7 +56,7 @@
             <div class="rank2">
                 <h3>稼げるライブ配信『ビスコール』</h3>
                 <div class="rank2-img">
-                    <a href="https://a-trade.jp/redirect/biscor?media=G16531" target="blank"><img src="{{ asset('image/cl_lp_3.jpg') }}"></img></a>
+                    <a href="https://a-trade.jp/redirect/biscor?media=G16531" target="blank"><img src="{{ asset('image/cl_lp_3-2.jpg') }}"></img></a>
                 </div>
                 <div class="rank2-text">
                     <p>TikTokやYouTubeが話題になりがちな動画配信コンテンツ。ビスコールは従来の無料コンテンツをあげるだけではなく、時給を稼ぎながら配信できる新システムを導入！</p>
@@ -78,7 +78,7 @@
             <div class="rank3">
                 <h3>稼げるSNSアプリ『チャリン』</h3>
                 <div class="rank3-img">
-                    <a href="https://a-trade.jp/redirect/charin?media=G16531" target="_blank"><img src="{{ asset('image/cl_lp_4.jpg') }}"></img></a>
+                    <a href="https://a-trade.jp/redirect/charin?media=G16531" target="_blank"><img src="{{ asset('image/cl_lp_4-2.jpg') }}"></img></a>
                 </div>
                 <div class="rank3-text">
                     <p>新規SNSを活発化させる為、利用ユーザー同士でメッセージや電話するだけで稼げる仕組みを導入！毎日のスキマ時間でお小遣い稼ぎ、そして嬉しい翌日払いにも対応。</p>
