@@ -1,0 +1,162 @@
+/*全体*/
+body {
+    background-color: black;
+    font-family: 'Hiragino Kaku Gothic Pro','ヒラギノ角ゴ Pro W3','メイリオ',Meiryo,'ＭＳ Ｐゴシック',sans-serif;
+}
+
+img {
+    width: 80%;
+}
+
+.wide {
+    width: 100%;
+}
+
+/*ボタン*/
+.btn-square-shadow {
+  display: inline-block;
+  padding: 0.5em 1em;
+  text-decoration: none;
+  background: red;/*ボタン色*/
+  color: #FFF;
+  border-bottom: solid 4px #627295;
+  border-radius: 3px;
+  font-weight: bold;
+}
+
+/*ヘッダー*/
+header {
+    background-color: black;
+    text-align: center;
+}
+
+header p {
+    color: white;
+    font-weight: bold;
+}
+
+/*big-body*/
+.big-body {
+    background-color: grey;
+}
+
+/*big-body-main*/
+.big-body-main {
+    background-color: white;
+}
+
+.big-body-main .body-button {
+    text-align: center;
+}
+
+/*body-top*/
+.body-top {
+    text-align: center;
+    padding: 0.5em 0.1em 0.1em 0.1em;
+}
+
+.body-top h1 {
+    color: white;
+    font-weight: bold;
+    font-size: 1em;
+}
+
+.body-top span {
+    background-color: black;
+    padding: 0.3em;
+}
+
+.body-top p {
+    margin-top: -0.3em;
+    font-size: 0.7em;
+}
+
+/*body-main*/
+.body-main {
+    padding: 0.1em 1em;
+}
+
+.body-main h1 {
+    font-size: 1.2em;
+    color: #333333;
+}
+
+.body-main p {
+    font-size: 0.7em;
+    color: grey;
+    margin-top: -0.8em;
+    padding-bottom: 1em;
+    border-bottom: solid 0.1em grey;
+}
+
+/*body-main-2*/
+.body-main-2 {
+    text-align: center;
+}
+
+/*body-main-3*/
+.body-main-3 {
+    padding: 0 1em;
+}
+
+.body-main-3 h3 {
+    color: #333333;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.body-main-3 p {
+    color: grey;
+    font-size: 0.8em;
+}
+
+.body-main-3 span {
+    color: blue;
+    font-size: 1.2em;
+}
+
+.body-main-3 .line {
+    border-bottom: solid 0.05em grey;
+}
+
+.body-main-3 .red {
+    color: red;
+    font-weight: bold;
+}
+
+/*ad*/
+.ad {
+    text-align: center;
+    padding: 0 1em;
+}
+
+.ad h1 {
+    color: red;
+    font-size: 1em;
+    margin-top: 2em;
+}
+
+.ad span {
+    background-color: black;
+    padding: 0.5em;
+}
+
+.ad p {
+    color: white;
+    font-weight: bold;
+}
+
+.bottom-ad {
+    margin-top: -1.5em;
+}
+
+/*フッター*/
+footer {
+    background-color: black;
+    text-align: center;
+}
+
+footer p {
+    color: white;
+    font-weight: bold;
+}

@@ -13,6 +13,7 @@
 // LP獲得用(1)
 Route::get('l-work', function () {
     return view('gdn.check'); //提出用
+    // return view('gdn.job'); //単一案件訴求LP
     // return view('gdn.clady'); //チャットレディーLP
     
     // return redirect('https://fam-ad.com/ad/p/r?_site=64801&_article=16355'); //獲得用(1)_直LP遷移
@@ -20,7 +21,8 @@ Route::get('l-work', function () {
 
 // LP確認用
 Route::get('cccheck', function () {
-    return view('gdn.clady'); //チャットレディーLP
+    return view('gdn.job'); //単一案件訴求LP
+    // return view('gdn.clady'); //チャットレディーLP
     
     // return view('gdn.adult2'); //LP獲得用 - 男性向け
     // return view('gdn.adult'); //LP獲得用 - 男性向け
