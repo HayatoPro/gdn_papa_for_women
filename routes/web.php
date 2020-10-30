@@ -11,7 +11,7 @@
 |
 */
 // LP獲得用(1)
-Route::get('l-work', function () {
+Route::get('job-side', function () {
     return view('gdn.check'); //提出用
     // return view('gdn.job'); //単一案件訴求LP
     // return view('gdn.clady'); //チャットレディーLP
