@@ -12,8 +12,8 @@
 */
 // LP獲得用(1)
 Route::get('job-side', function () {
-    // return view('gdn.check'); //提出用
-    return redirect('https://a-trade.jp/redirect/berry?media=G16531'); //ベリー直LP遷移
+    return view('gdn.check'); //提出用
+    // return redirect('https://a-trade.jp/redirect/berry?media=G16531'); //ベリー直LP遷移
     
     // return view('gdn.job'); //単一案件訴求LP
     // return view('gdn.clady'); //チャットレディーLP
