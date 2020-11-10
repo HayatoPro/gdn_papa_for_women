@@ -13,7 +13,7 @@
         <div class="button">
             <a href="https://a-trade.jp/redirect/biscor?media=G16531" target="_blank" class="btn-square-little-rich">公式ページはコチラ <i class="fas fa-chevron-circle-right"></i></a>
         </div>
-        <img src="{{ asset('image/bis_1.jpg') }}"></img>
+        <img src="{{ asset('image/bis_1.jpg') }}" class="img1"></img>
         <br>
         <div class="button">
             <a href="https://a-trade.jp/redirect/biscor?media=G16531" target="_blank" class="btn-square-little-rich">公式ページはコチラ <i class="fas fa-chevron-circle-right"></i></a>
