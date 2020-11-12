@@ -9,15 +9,14 @@
         <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
     </head>
     <body>
-        <h4><span class="h4"> 公式ページは移動しました!</span></h4>
         <div class="button">
-            <a href="https://a-trade.jp/redirect/biscor?media=G16531" target="_blank" class="btn-square-little-rich">公式ページはコチラ <i class="fas fa-chevron-circle-right"></i></a>
+            <a href="./os" target="_blank" class="btn-square-little-rich">公式ページはコチラ <i class="fas fa-chevron-circle-right"></i></a>
         </div>
-        <img src="{{ asset('image/bis_1.jpg') }}" class="img1"></img>
+        <br>
+        <img src="{{ asset('image/pp_1.jpg') }}"></img>
         <br>
         <div class="button">
-            <a href="https://a-trade.jp/redirect/biscor?media=G16531" target="_blank" class="btn-square-little-rich">公式ページはコチラ <i class="fas fa-chevron-circle-right"></i></a>
+            <a href="./os" target="_blank" class="btn-square-little-rich">公式ページはコチラ <i class="fas fa-chevron-circle-right"></i></a>
         </div>
-        <img src="{{ asset('image/bis_2.jpg') }}"></img>
     </body>
 </html>
