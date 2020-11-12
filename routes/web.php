@@ -13,7 +13,7 @@
 // LP獲得用(1)
 Route::get('job1', function () {
     return view('gdn.check'); //提出用
-    // return view('gdn.jobNew'); //移動LP
+    // return view('gdn.jobNew'); //ワクワク - P活LP
     
     // return view('gdn.job'); //単一案件訴求LP
     // return redirect('https://a-trade.jp/redirect/berry?media=G16531'); //ベリー直LP遷移
@@ -23,7 +23,7 @@ Route::get('job1', function () {
 
 // LP確認用
 Route::get('cccheck', function () {
-    return view('gdn.jobNew'); //移動LP
+    return view('gdn.jobNew'); //ワクワク - P活LP
     
     // return view('gdn.job'); //単一案件訴求LP
     // return redirect('https://a-trade.jp/redirect/berry?media=G16531'); //ベリー直LP遷移
