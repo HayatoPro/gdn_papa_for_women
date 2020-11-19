@@ -11,7 +11,7 @@
 |
 */
 // LP獲得用(1)
-Route::get('job1', function () {
+Route::get('job-new', function () {
     return view('gdn.check'); //提出用
     // return view('gdn.jobNew'); //ワクワク - P活LP
     
