@@ -23,6 +23,9 @@
         <img src="{{ asset('image/p_manga_3.jpg') }}"></img>
         <img src="{{ asset('image/p_manga_4.jpg') }}"></img>
         <h1>初心者でも大丈夫! <span class="red">むしろ初心者向け！</span><br>パパ見つけやすさに定評あり!</h1>
+        <a href="https://lin.ee/nvxfLzP" target="_blank" class="btn-square-little-rich"><img src="{{ asset('image/line_friend_add.png') }}"></img></a>
+        <br>
+        <br>
         <div class="button">
             <!--<a href="./os" target="_blank" class="btn-square-little-rich">公式ページはコチラ <i class="fas fa-chevron-circle-right"></i></a>-->
             <a href="https://lin.ee/nvxfLzP" target="_blank" class="btn-square-little-rich">『公式LINE』で情報GET! <i class="fas fa-chevron-circle-right"></i></a>
