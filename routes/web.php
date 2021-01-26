@@ -45,7 +45,14 @@ Route::get('app', function () {
 
 // LP確認用2
 Route::get('cccheck2', function () {
-    return redirect('./os'); //獲得用OS識別
+    return view('gdn.company'); //会社概要
+    
+    // return redirect('./os'); //獲得用OS識別
+});
+
+// 会社概要
+Route::get('company', function () {
+    return view('gdn.company'); //会社概要
 });
 
 //OS識別
