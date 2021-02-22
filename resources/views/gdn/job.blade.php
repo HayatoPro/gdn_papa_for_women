@@ -16,7 +16,7 @@
         <div class="big-body">
             <div class="body-top">
                 <!--<a href="https://a-trade.jp/redirect/moa?media=G16531"><img src="{{ asset('image/lp_instagram_job.png') }}" class="wide"></a>-->
-                <a href="./info"><img src="{{ asset('image/lp_instagram_job.png') }}" class="wide"></a>
+                <!--<a href="./info"><img src="{{ asset('image/lp_instagram_job.png') }}" class="wide"></a>-->
                 <img src="{{ asset('image/jobManga_1.png') }}" class="wide">
                 <img src="{{ asset('image/jobManga_2.png') }}" class="wide">
                 <h1><span>求人見つけたらラッキー!?</span></h1>
