@@ -12,8 +12,8 @@
 */
 // LP獲得用(1)
 Route::get('info1', function () {
-    // return view('gdn.check'); //提出用
-    return view('gdn.job'); //単一案件訴求LP - ギフトチャット
+    return view('gdn.check'); //提出用
+    // return view('gdn.job'); //単一案件訴求LP - ギフトチャット
     
     // return redirect('https://a-trade.jp/redirect/nijikano?media=G16531'); //にじげんカノジョ - Aトレード
     // return view('gdn.adult'); //LP獲得用 - 男性向け
