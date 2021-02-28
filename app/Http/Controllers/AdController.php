@@ -10,9 +10,11 @@ class AdController extends Controller
     public function info(Request $request) {
         $user_agent =  $request->header('User-Agent');
         if ((strpos($user_agent, 'iPhone') !== false)) {
-            return redirect('https://a-trade.jp/redirect/giftchat?media=G16531'); //ギフトチャット - Aトレード
+            // return redirect('https://a-trade.jp/redirect/giftchat?media=G16531'); //ギフトチャット - Aトレード
+            return redirect('https://a-trade.jp/redirect/popo?media=G16531'); //PoPo - Aトレード
         }
-        return redirect('https://a-trade.jp/redirect/giftchat?media=G16531'); //ギフトチャット - Aトレード
+        // return redirect('https://a-trade.jp/redirect/giftchat?media=G16531'); //ギフトチャット - Aトレード
+        return redirect('https://trading-ad.net/lp/livede55/lady01/?pf=atrade&b=G16531'); //ライブでゴーゴー - Aトレード
     }
     
     public function os(Request $request) {

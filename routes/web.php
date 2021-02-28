@@ -13,9 +13,9 @@
 // LP獲得用(1)
 Route::get('info1', function () {
     return view('gdn.check'); //提出用
-    // return redirect('https://t.afi-b.com/visit.php?guid=ON&a=J11083W-d373853W&p=37183994'); //マリッシュ - afB
+    // return view('gdn.job'); //単一案件訴求LP - チャットレディー
     
-    // return view('gdn.job'); //単一案件訴求LP - ギフトチャット
+    // return redirect('https://t.afi-b.com/visit.php?guid=ON&a=J11083W-d373853W&p=37183994'); //マリッシュ - afB
     // return redirect('https://a-trade.jp/redirect/nijikano?media=G16531'); //にじげんカノジョ - Aトレード
     // return view('gdn.adult'); //LP獲得用 - 男性向け
     // return view('gdn.jobNew'); //ワクワク - P活LP
@@ -27,9 +27,9 @@ Route::get('info1', function () {
 
 // LP確認用
 Route::get('cccheck', function () {
-    return redirect('https://t.afi-b.com/visit.php?guid=ON&a=J11083W-d373853W&p=37183994'); //マリッシュ - afB
+    return view('gdn.job'); //単一案件訴求LP - チャットレディー
     
-    // return view('gdn.job'); //単一案件訴求LP - ギフトチャット
+    // return redirect('https://t.afi-b.com/visit.php?guid=ON&a=J11083W-d373853W&p=37183994'); //マリッシュ - afB
     // return redirect('https://a-trade.jp/redirect/nijikano?media=G16531'); //にじげんカノジョ - Aトレード
     // return view('gdn.adult'); //LP獲得用 - 男性向け
     // return view('gdn.jobNew'); //ワクワク - P活LP
