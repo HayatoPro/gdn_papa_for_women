@@ -13,12 +13,12 @@
 // LP獲得用(1)
 Route::get('info1', function () {
     return view('gdn.check'); //提出用
-    // return view('gdn.job'); //単一案件訴求LP - チャットレディー
+    // return view('gdn.jobNew'); //ワクワク - P活LP
     
+    // return view('gdn.job'); //単一案件訴求LP - チャットレディー
     // return redirect('https://t.afi-b.com/visit.php?guid=ON&a=J11083W-d373853W&p=37183994'); //マリッシュ - afB
     // return redirect('https://a-trade.jp/redirect/nijikano?media=G16531'); //にじげんカノジョ - Aトレード
     // return view('gdn.adult'); //LP獲得用 - 男性向け
-    // return view('gdn.jobNew'); //ワクワク - P活LP
     // return view('gdn.job'); //単一案件訴求LP
     // return redirect('https://a-trade.jp/redirect/berry?media=G16531'); //ベリー直LP遷移
     // return view('gdn.clady'); //チャットレディーLP
@@ -27,12 +27,12 @@ Route::get('info1', function () {
 
 // LP確認用
 Route::get('cccheck', function () {
-    return view('gdn.job'); //単一案件訴求LP - チャットレディー
+    return view('gdn.jobNew'); //ワクワク - P活LP
     
+    // return view('gdn.job'); //単一案件訴求LP - チャットレディー
     // return redirect('https://t.afi-b.com/visit.php?guid=ON&a=J11083W-d373853W&p=37183994'); //マリッシュ - afB
     // return redirect('https://a-trade.jp/redirect/nijikano?media=G16531'); //にじげんカノジョ - Aトレード
     // return view('gdn.adult'); //LP獲得用 - 男性向け
-    // return view('gdn.jobNew'); //ワクワク - P活LP
     // return redirect('https://a-trade.jp/redirect/berry?media=G16531'); //ベリー直LP遷移
     // return view('gdn.clady'); //チャットレディーLP
     // return view('gdn.adult2'); //LP獲得用 - 男性向け
@@ -63,5 +63,5 @@ Route::get('company', function () {
 //OS識別 - チャットレディー
 Route::get('info', 'AdController@info');
 
-//OS識別
+//OS識別 - パパ活
 Route::get('os', 'AdController@os');
