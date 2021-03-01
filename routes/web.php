@@ -10,6 +10,17 @@
 | contains the "web" middleware group. Now create something great!
 |
 */
+//活用中 - LINE@ - パパ活
+Route::get('os1', 'AdController@papa');
+
+
+
+
+
+
+
+
+
 // LP獲得用(1)
 Route::get('info1', function () {
     return view('gdn.check'); //提出用
@@ -62,6 +73,3 @@ Route::get('company', function () {
 
 //OS識別 - チャットレディー
 Route::get('info', 'AdController@info');
-
-//OS識別 - パパ活
-Route::get('os', 'AdController@os');
