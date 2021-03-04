@@ -13,6 +13,8 @@
 //活用中 - LINE@ - パパ活
 Route::get('os1', 'AdController@papa');
 
+//活用中 - LINE@ - アダルト訴求
+Route::get('adult', 'AdController@adult');
 
 
 
