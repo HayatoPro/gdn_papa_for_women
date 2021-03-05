@@ -12,8 +12,8 @@ class AdController extends Controller
         if ((strpos($user_agent, 'iPhone') !== false)) {
             return redirect('https://preaf.jp/pa.do?s=v04380&o=45765&guid=ON'); //トークウィズ - Preaf
         }
-        return redirect('https://fam-ad.com/ad/p/r?_site=64801&_article=16216'); //トリトモ - fam
-        // return redirect('https://a-trade.jp/redirect/connect?media=G16531'); //CONNECT - Aトレード
+        // return redirect('https://fam-ad.com/ad/p/r?_site=64801&_article=16216'); //トリトモ - fam
+        return redirect('https://a-trade.jp/redirect/connect?media=G16531'); //CONNECT - Aトレード
     }
     
     public function papa(Request $request) {
