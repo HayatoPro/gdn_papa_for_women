@@ -7,7 +7,7 @@ use Illuminate\Http\Request;
 class AdController extends Controller
 {
     //
-    public function papa(Request $request) {
+    public function chat(Request $request) {
         $user_agent =  $request->header('User-Agent');
         if ((strpos($user_agent, 'iPhone') !== false)) {
             return redirect('https://a-trade.jp/redirect/moa?media=G16531'); //モア - Aトレード
@@ -15,7 +15,7 @@ class AdController extends Controller
         return redirect('https://trading-ad.net/lp/livede55/lady01/?pf=atrade&b=G16531'); //ライブでゴーゴー - Aトレード
     }
     
-    public function chat(Request $request) {
+    public function papa(Request $request) {
         $user_agent =  $request->header('User-Agent');
         if ((strpos($user_agent, 'iPhone') !== false)) {
             return redirect('https://fam-ad.com/ad/p/r?_site=64802&_article=16786'); //ワクワク - fam
