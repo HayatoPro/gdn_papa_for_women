@@ -15,6 +15,14 @@ class AdController extends Controller
         return redirect('https://trading-ad.net/lp/livede55/lady01/?pf=atrade&b=G16531'); //ライブでゴーゴー - Aトレード
     }
     
+    public function chat2(Request $request) {
+        $user_agent =  $request->header('User-Agent');
+        if ((strpos($user_agent, 'iPhone') !== false)) {
+            return redirect('https://a-trade.jp/redirect/berry?media=G16531'); //ベリー - Aトレード
+        }
+        return redirect('https://trading-ad.net/lp/livede55/lady01/?pf=atrade&b=G16531'); //ライブでゴーゴー - Aトレード
+    }
+    
     public function papa(Request $request) {
         $user_agent =  $request->header('User-Agent');
         if ((strpos($user_agent, 'iPhone') !== false)) {
